@@ -5,8 +5,8 @@ date: "October 6, 2014"
 output:
   html_document:
     highlight: textmate
+    keep_md: yes
     theme: united
-    toc: yes
 ---
 
 ```{r prelims}
