@@ -1,0 +1,14 @@
+---
+title: "Term Frequency - Inverse Document Frequency"
+author: "Duncan Wadsworth"
+date: "October 6, 2014"
+output:
+  html_document:
+    highlight: textmate
+    theme: united
+    toc: yes
+---
+
+```{r prelims}
+library(topicmodels)
+```
