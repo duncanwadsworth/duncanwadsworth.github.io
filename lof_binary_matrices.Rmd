@@ -1,0 +1,35 @@
+---
+title: "Left Order Forms and Binary Matrices"
+author: "Duncan Wadsworth"
+date: "August 8, 2014"
+output:
+  html_document:
+    highlight: textmate
+    theme: united
+    toc: yes
+---
+
+```{r prelims}
+suppressPackageStartupMessages(library(ggplot2))
+```
+
+```{r generate_matrices}
+n_features = 200
+n_observations = 1000
+feature_probabilities = runif(n_features)
+## use vector argument recycling for the probabilities
+unordered_binary_matrix = matrix(rbinom(n_features * n_observations, 1, prob = sort(feature_probabilities, decreasing = T)), nrow = n_observations, byrow = T)
+## check graphically
+plot(colMeans(unordered_binary_matrix), sort(feature_probabilities, decreasing = T))
+```
+
+```{r order_matrices}
+bin_char_vec = "0011010110"
+binToInt = function(bin_char_vec){
+  n_elements = length(bin_char_vec)
+  seq(0, 2^12, by )
+  
+  
+}
+
+```
