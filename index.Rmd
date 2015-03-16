@@ -1,5 +1,5 @@
 ---
-title: "Bloggy McBlogington"
+title: "Under Construction"
 output:
   html_document:
     highlight: textmate
@@ -7,4 +7,4 @@ output:
     theme: united
 ---
 
-Hello? Is this thing on?
+Come back some time soon!
